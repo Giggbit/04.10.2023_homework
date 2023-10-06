@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>_04._10._2023_Элементы_управления_ч._2</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image_cat\image_part_001.jpg" />
+    <None Remove="image_cat\image_part_002.jpg" />
+    <None Remove="image_cat\image_part_003.jpg" />
+    <None Remove="image_cat\image_part_004.jpg" />
+    <None Remove="image_cat\image_part_005.jpg" />
+    <None Remove="image_cat\image_part_006.jpg" />
+    <None Remove="image_cat\image_part_007.jpg" />
+    <None Remove="image_cat\image_part_008.jpg" />
+    <None Remove="image_cat\image_part_009.jpg" />
+    <None Remove="image_cat\png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image_cat\image_part_001.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image_cat\image_part_002.jpg" />
+    <Resource Include="image_cat\image_part_003.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image_cat\image_part_004.jpg" />
+    <Resource Include="image_cat\image_part_005.jpg" />
+    <Resource Include="image_cat\image_part_006.jpg" />
+    <Resource Include="image_cat\image_part_007.jpg" />
+    <Resource Include="image_cat\image_part_008.jpg" />
+    <Resource Include="image_cat\image_part_009.jpg" />
+    <Resource Include="image_cat\png.png" />
+  </ItemGroup>
+
+</Project>
